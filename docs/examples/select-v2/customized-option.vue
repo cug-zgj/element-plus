@@ -18,7 +18,7 @@
 
 <script lang="ts" setup>
 import { ref } from 'vue'
-const initials = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
+const initials = ['axxxxxxxxxxxxxxxxxxxxxxxxxx', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
 
 const value = ref([])
 const options = Array.from({ length: 1000 }).map((_, idx) => ({
