@@ -1,6 +1,6 @@
 <template>
   <div class="example-basic">
-    <el-time-picker v-model="value1" placeholder="Arbitrary time" />
+    <el-time-picker v-model="value1" placeholder="Arbitrary time" readonly />
     <el-time-picker
       v-model="value2"
       arrow-control
